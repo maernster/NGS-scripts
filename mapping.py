@@ -1,6 +1,6 @@
 #! /bin/python3
 # Copyright (C) 2020 Mario Ernst
-# This is a script that maps previously cleaned sequence reads in fastq format against a fasta reference.
+# This is a script that maps previously cleaned sequence reads in fastq format against a fasta reference with the assembled contigs.
 # The workflow is based on the cleaning script by Mozes Blom (https://github.com/MozesBlom/NGSdata_tools/blob/master/clean_up_raw_reads.py)
 # It assumes that the input files for each library are both paired and single end fastq files and performs the following steps:
 #       1) indexes FASTA file containing the assembled contigs using the bwa software package
