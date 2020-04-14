@@ -50,7 +50,7 @@ results_path = '/path/to/results/folder/'
 reads_path = '/path/to/folder/with/reads/'
 # Folder where all the fasta reference file is stored [char]
 reference_path = '/path/to/reference/'
-# Path to list with library file names. The list should be a column containing the names of each library in the following format: indivA_Lxxx
+# Path to list with library file names. The file should be a list containing the names of each library in the following format: indivX_LXXX
 lib_list = '/Path/to/lib_list.txt'
 
 #########################
