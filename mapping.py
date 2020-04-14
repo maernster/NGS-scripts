@@ -1,9 +1,8 @@
 #! /bin/python3
-#   Copyright (C) 2020 Mario Ernst
-#
-#	This is a script that maps previously cleaned sequence reads in fastq format against a fasta reference.
-#   The workflow is based on the cleaning script by Mozes Blom (https://github.com/MozesBlom/NGSdata_tools/blob/master/clean_up_raw_reads.py)
-#   It assumes that the input files for each library are both paired and single end fastq files and performs the following steps:
+# Copyright (C) 2020 Mario Ernst
+# This is a script that maps previously cleaned sequence reads in fastq format against a fasta reference.
+# The workflow is based on the cleaning script by Mozes Blom (https://github.com/MozesBlom/NGSdata_tools/blob/master/clean_up_raw_reads.py)
+# It assumes that the input files for each library are both paired and single end fastq files and performs the following steps:
 #       1) indexes FASTA file containing the assembled contigs using the bwa software package
 #       2) aligns the reads to the reference ref_genome using the BWA-MEM algorithm
 #       3) converts the SAM files into its binary version (BAM)
